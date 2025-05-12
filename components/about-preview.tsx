@@ -27,7 +27,7 @@ export function AboutPreview() {
           <h2 className="text-3xl md:text-4xl font-bold">Meet Chris</h2>
           <p className="text-lg text-foreground">
             With over a decade of experience, including within the disciplines
-            of PowerLifting, Olympic Weightlifting & Bodybuilding. I bring
+            of Powerlifting, Olympic Weightlifting & Bodybuilding. I bring
             scientific knowledge and practical expertise to every training
             session.
           </p>

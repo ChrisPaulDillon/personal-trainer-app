@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/contact-form";
 import { MapPin, Mail } from "lucide-react";
 
 export const metadata = {
-  title: "Contact | Chris Dillon Fitness",
+  title: "Contact",
   description:
     "Get in touch with Glasgow's premier personal trainer. Book a consultation, ask questions, or find our training location.",
 };
@@ -19,11 +19,11 @@ export default function ContactPage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
         <div className="space-y-8 animate-fade-right">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Let's Connect</h2>
+            <h2 className="text-3xl font-bold mb-6">Let&apos;s Connect</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Whether you're ready to start your fitness journey or just have
-              questions, I'm here to help. Fill out the form or use the contact
-              information below.
+              Whether you&apos;re ready to start your fitness journey or just
+              have questions, I&apos;m here to help. Fill out the form or use
+              the contact information below.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
             <p className="text-muted-foreground">
               Book a free 30-minute consultation to discuss your fitness goals
               and how I can help you achieve them. This is a no-pressure
-              opportunity to see if we're a good fit for working together.
+              opportunity to see if we&apos;re a good fit for working together.
             </p>
           </div>
         </div>

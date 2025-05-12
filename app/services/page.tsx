@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export const metadata = {
-  title: "Services | Chris Dillon Fitness",
+  title: "Services",
   description:
     "Explore our range of personal training services in Glasgow, including one-on-one training, group sessions, nutrition coaching, and online programs.",
 };
@@ -133,9 +133,10 @@ export default function ServicesPage() {
           Start Your Fitness Journey Today
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-          Book your FREE initial consultation and let's discuss how we can help
-          you achieve your fitness goals. No pressure, no obligations - just a
-          friendly chat about your aspirations and how we can work together.
+          Book your FREE initial consultation and let&apos;s discuss how we can
+          help you achieve your fitness goals. No pressure, no obligations -
+          just a friendly chat about your aspirations and how we can work
+          together.
         </p>
         <Button size="lg" asChild className="bg-primary hover:bg-primary/90">
           <Link href="/contact">Book Free Consultation</Link>

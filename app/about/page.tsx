@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 import { PageHeader } from "@/components/page-header";
 
 export const metadata = {
-  title: "About | Chris Dillon Fitness",
+  title: "About",
   description:
     "Learn about Glasgow's premier personal trainer, qualifications, training philosophy, and journey to becoming the best version of yourself.",
 };
@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto py-12 px-4 md:px-6">
       <PageHeader
-        title="About Chris Dillon Fitness"
+        title="About Me"
         description="Meet your trainer and discover the philosophy behind the results"
       />
 
@@ -91,7 +91,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-6">Ready to Transform?</h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
           Becoming the best version of yourself starts with a single decision.
-          Let's work together to unleash your inner monster.
+          Let&apos;s work together to unleash your inner monster.
         </p>
         <Button size="lg" className="text-lg px-8">
           Book a Consultation
