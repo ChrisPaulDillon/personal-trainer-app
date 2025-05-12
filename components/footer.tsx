@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { Dumbbell, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import Link from "next/link";
+import { Dumbbell, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,77 +9,108 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Dumbbell className="h-6 w-6 text-primary" />
-              <span className="font-oswald font-bold text-xl">CHRIS DILLON FITNESS</span>
+              <span className="font-oswald font-bold text-xl">
+                CHRIS DILLON FITNESS
+              </span>
             </div>
             <p className="text-muted-foreground">
-              Transforming bodies and minds in Glasgow since 2010. 
-              Providing expert personal training, nutrition coaching, and fitness guidance.
+              Providing expert personal training, nutrition coaching, and
+              fitness guidance, based in Glasgow, Town Centre
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
                 <Youtube className="h-5 w-5" />
               </Link>
             </div>
           </div>
-          
+
           <div>
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/about"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/services"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/contact"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-bold text-lg mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/services"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   Initial Consultation
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/services"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
                   One-on-One Training
                 </Link>
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-bold text-lg mb-4">Location</h3>
             <address className="not-italic text-muted-foreground space-y-2">
               <p>The Arc</p>
               <p>Cowcaddens Road</p>
               <p>Glasgow G4 0BA</p>
-              <p className="mt-4">+44 (0) 141 234 5678</p>
               <p>chrispauldillon@live.com</p>
             </address>
             <div className="mt-4 h-48 w-full rounded-lg overflow-hidden">
@@ -95,9 +126,12 @@ export function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t pt-8 mt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Chris Dillon Fitness. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Chris Dillon Fitness. All rights
+            reserved.
+          </p>
           <div className="mt-2 flex justify-center space-x-4 text-sm">
             <Link href="#" className="hover:text-primary transition-colors">
               Privacy Policy

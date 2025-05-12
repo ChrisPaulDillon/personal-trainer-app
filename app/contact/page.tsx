@@ -1,30 +1,32 @@
-import { PageHeader } from '@/components/page-header';
-import { ContactForm } from '@/components/contact-form';
-import { MapPin, Mail } from 'lucide-react';
+import { PageHeader } from "@/components/page-header";
+import { ContactForm } from "@/components/contact-form";
+import { MapPin, Mail } from "lucide-react";
 
 export const metadata = {
-  title: 'Contact | The Athletic Monster',
-  description: 'Get in touch with Glasgow\'s premier personal trainer. Book a consultation, ask questions, or find our training location.',
+  title: "Contact | Chris Dillon Fitness",
+  description:
+    "Get in touch with Glasgow's premier personal trainer. Book a consultation, ask questions, or find our training location.",
 };
 
 export default function ContactPage() {
   return (
     <div className="container mx-auto py-12 px-4 md:px-6">
-      <PageHeader 
-        title="Get In Touch" 
+      <PageHeader
+        title="Get In Touch"
         description="Book a session, ask questions, or schedule a consultation"
       />
-      
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
         <div className="space-y-8 animate-fade-right">
           <div>
             <h2 className="text-3xl font-bold mb-6">Let's Connect</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Whether you're ready to start your fitness journey or just have questions,
-              I'm here to help. Fill out the form or use the contact information below.
+              Whether you're ready to start your fitness journey or just have
+              questions, I'm here to help. Fill out the form or use the contact
+              information below.
             </p>
           </div>
-          
+
           <div className="space-y-6">
             <div className="flex items-start space-x-4">
               <MapPin className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
@@ -35,31 +37,33 @@ export default function ContactPage() {
                 <p className="text-muted-foreground">Glasgow G4 0BA</p>
               </div>
             </div>
-            
+
             <div className="flex items-start space-x-4">
               <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-bold text-lg">Email</h3>
-                <p className="text-muted-foreground">chrispauldillon@live.com</p>
+                <p className="text-muted-foreground">
+                  chrispauldillon@live.com
+                </p>
               </div>
             </div>
           </div>
-          
+
           <div className="p-6 bg-card rounded-lg shadow-md">
             <h3 className="font-bold text-xl mb-4">Free Consultation</h3>
             <p className="text-muted-foreground">
-              Book a free 30-minute consultation to discuss your fitness goals and 
-              how I can help you achieve them. This is a no-pressure opportunity 
-              to see if we're a good fit for working together.
+              Book a free 30-minute consultation to discuss your fitness goals
+              and how I can help you achieve them. This is a no-pressure
+              opportunity to see if we're a good fit for working together.
             </p>
           </div>
         </div>
-        
+
         <div className="animate-fade-left">
           <ContactForm />
         </div>
       </div>
-      
+
       <div className="mt-16">
         <h2 className="text-3xl font-bold mb-6 text-center">Our Location</h2>
         <div className="rounded-lg overflow-hidden h-[400px] shadow-xl">
