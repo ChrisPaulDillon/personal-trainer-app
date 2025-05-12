@@ -164,6 +164,10 @@
     .blog-card {
       background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(210 40% 98%) 100%);
     }
+
+    body {
+      background: linear-gradient(135deg, hsl(210 40% 98%) 0%, hsl(216 100% 92%) 100%);
+    }
   }
 
   /* Dark mode gradients */
