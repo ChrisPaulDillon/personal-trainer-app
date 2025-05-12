@@ -24,7 +24,7 @@ export function AboutPreview() {
           <p className="text-sm font-medium text-primary uppercase tracking-wider">
             About Your Trainer
           </p>
-          {/* <h2 className="text-3xl md:text-4xl font-bold">Meet Chris Dillon Fitness</h2> */}
+          <h2 className="text-3xl md:text-4xl font-bold">Meet Chris</h2>
           <p className="text-lg text-foreground">
             With over a decade of experience, including within the disciplines
             of PowerLifting, Olympic Weightlifting & Bodybuilding. I bring
@@ -33,13 +33,13 @@ export function AboutPreview() {
           </p>
           <p className="text-foreground">
             As a certified strength and conditioning specialist with multiple
-            fitness qualifications, I&apos;ve developed a training methodology
-            that delivers consistent results for clients of all fitness levels.
+            fitness qualifications based in Glasgow, I&apos;m here to here
+            others become the greatest versions of themselves.
           </p>
           <p className="text-foreground">
-            My approach combines progressive strength training, strategic
-            nutrition planning, and accountability systems that ensure you not
-            only reach your goals but sustain your results long-term.
+            My approach combines progressive strength training, flexible
+            dieting, and accountability systems that ensure you not only reach
+            your goals but sustain your results long-term.
           </p>
           <div className="pt-4">
             <Button asChild size="lg">

@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { motion } from 'framer-motion';
-import { Calendar, Phone, Mail, MapPin } from 'lucide-react';
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { Calendar, Phone, Mail, MapPin } from "lucide-react";
 
 export function Hero() {
   return (
@@ -16,9 +16,10 @@ export function Hero() {
           className="max-w-3xl"
         >
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-            Transform Your Body with <span className="text-gradient">Expert Guidance</span>
+            Transform Your Body with{" "}
+            <span className="text-gradient">Expert Guidance</span>
           </h1>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -31,19 +32,25 @@ export function Hero() {
                 <h3 className="text-xl font-bold">Location</h3>
               </div>
               <p className="text-muted-foreground">
-                The Arc<br />
-                Cowcaddens Road<br />
+                The Arc
+                <br />
+                Cowcaddens Road
+                <br />
                 Glasgow G4 0BA
               </p>
             </motion.div>
           </div>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <Button size="lg" asChild className="text-lg bg-gradient-to-r from-primary to-accent hover:opacity-90">
+            <Button
+              size="lg"
+              asChild
+              className="text-lg bg-gradient-to-r from-primary to-accent hover:opacity-90"
+            >
               <Link href="/contact">Book a Consultation</Link>
             </Button>
           </div>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

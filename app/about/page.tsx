@@ -21,7 +21,7 @@ export default function AboutPage() {
         <div className="space-y-6 animate-fade-right">
           <h2 className="text-3xl font-bold">The Journey</h2>
           <p className="text-lg text-muted-foreground">
-            With over 15 years of experience in personal training and sports
+            With over 12 years of experience in personal training and sports
             science, I've helped hundreds of clients in Glasgow transform their
             bodies and lives.
           </p>
