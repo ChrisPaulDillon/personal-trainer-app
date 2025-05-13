@@ -26,6 +26,8 @@ const nextConfig = {
     });
     return config;
   },
+  // Add assetPrefix for static assets
+  assetPrefix: '.',
 };
 
 module.exports = nextConfig;

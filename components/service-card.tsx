@@ -61,7 +61,7 @@ export function ServiceCard({
           <div className="flex items-end justify-between mb-4">
             <span className="text-2xl font-bold">{price}</span>
             <span className="dark:text-gray-200 text-sm">
-              Per session/month
+              Per session
             </span>
           </div>
 

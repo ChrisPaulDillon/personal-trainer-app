@@ -83,6 +83,21 @@ export default function ServicesPage() {
         description="Choose the perfect training option to achieve your fitness goals"
       />
 
+      <div className="mt-16 text-center bg-card p-8 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-bold mb-4">
+          Start Your Fitness Journey Today
+        </h2>
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+          Book your FREE initial consultation and let&apos;s discuss how we can
+          help you achieve your fitness goals. No pressure, no obligations -
+          just a friendly chat about your aspirations and how we can work
+          together.
+        </p>
+        <Button size="lg" asChild className="bg-primary hover:bg-primary/90">
+          <Link href="/contact">Book Free Consultation</Link>
+        </Button>
+      </div>
+
       <Tabs defaultValue="services" className="mt-12">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="services">Training Packages</TabsTrigger>
@@ -114,34 +129,8 @@ export default function ServicesPage() {
               </div>
             ))}
           </div>
-
-          <div className="mt-12 text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Not sure which approach is right for you?
-            </h3>
-            <p className="dark:text-gray-200 max-w-2xl mx-auto mb-6">
-              Book a free 30-minute consultation call to discuss your goals and
-              find the perfect training solution.
-            </p>
-            <Button size="lg">Schedule Consultation</Button>
-          </div>
         </TabsContent>
       </Tabs>
-
-      <div className="mt-16 text-center bg-card p-8 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold mb-4">
-          Start Your Fitness Journey Today
-        </h2>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-          Book your FREE initial consultation and let&apos;s discuss how we can
-          help you achieve your fitness goals. No pressure, no obligations -
-          just a friendly chat about your aspirations and how we can work
-          together.
-        </p>
-        <Button size="lg" asChild className="bg-primary hover:bg-primary/90">
-          <Link href="/contact">Book Free Consultation</Link>
-        </Button>
-      </div>
     </div>
   );
 }

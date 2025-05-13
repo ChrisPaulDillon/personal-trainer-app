@@ -132,17 +132,6 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Chris Dillon Fitness. All rights
             reserved.
           </p>
-          <div className="mt-2 flex justify-center space-x-4 text-sm">
-            <Link href="#" className="hover:text-primary transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:text-primary transition-colors">
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:text-primary transition-colors">
-              Cookie Policy
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
