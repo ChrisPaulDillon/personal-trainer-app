@@ -4,29 +4,57 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Calendar, Phone, Mail, MapPin, ChevronDown, ChevronUp } from "lucide-react";
+import {
+  Calendar,
+  Phone,
+  Mail,
+  MapPin,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import { useState } from "react";
+
+const faqs = [
+  {
+    id: "1",
+    question: "What can I expect in the first session?",
+    answer:
+      "Your first session includes a comprehensive fitness assessment, goal setting discussion, and a personalized training plan tailored to your current fitness level and aspirations.",
+  },
+  {
+    id: "2",
+    question: "How often should I train?",
+    answer:
+      "Training frequency depends on your goals, current fitness level, and schedule. I typically recommend 2-4 sessions per week for optimal results.",
+  },
+  {
+    id: "3",
+    question: "Do you provide nutrition guidance?",
+    answer:
+      "Yes, nutrition is a crucial part of your fitness journey. I offer personalized nutrition advice to complement your training program.",
+  },
+  {
+    id: "4",
+    question: "Where are you based?",
+    answer:
+      "I'm currently based in Glasgow town centre at The Arc Gym next to Glasgow Caledonian University.",
+  },
+  {
+    id: "5",
+    question: "Is The Arc gym open to the public?",
+    answer:
+      "Yes The Arc is open to the public and has a wide range of people who attend.",
+  },
+  {
+    id: "6",
+    question: "Is a gym membership required to attend a PT session?",
+    answer:
+      "Gym membership is not strictly required. A day pass is able to be purchased at the desk. Gym membership is recommended if you are attending regularly.",
+  },
+];
 
 export function Hero() {
   const [openFaq, setOpenFaq] = useState<string | null>(null);
-
-  const faqs = [
-    {
-      id: "1",
-      question: "What can I expect in the first session?",
-      answer: "Your first session includes a comprehensive fitness assessment, goal setting discussion, and a personalized training plan tailored to your current fitness level and aspirations."
-    },
-    {
-      id: "2",
-      question: "How often should I train?",
-      answer: "Training frequency depends on your goals, current fitness level, and schedule. We typically recommend 2-4 sessions per week for optimal results."
-    },
-    {
-      id: "3",
-      question: "Do you provide nutrition guidance?",
-      answer: "Yes, nutrition is a crucial part of your fitness journey. We offer personalized nutrition advice to complement your training program."
-    }
-  ];
 
   return (
     <>
@@ -106,21 +134,25 @@ export function Hero() {
 
       <div className="bg-background py-8">
         <div className="container mx-auto px-4">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
             className="max-w-3xl"
           >
-            <h2 className="text-2xl font-bold mb-8">Frequently Asked Questions</h2>
+            <h2 className="text-2xl font-bold mb-8">
+              Frequently Asked Questions
+            </h2>
             <div className="space-y-6">
               {faqs.map((faq) => (
-                <div 
+                <div
                   key={faq.id}
                   className="bg-card/20 backdrop-blur-sm rounded-lg border border-border/50"
                 >
                   <button
-                    onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
+                    onClick={() =>
+                      setOpenFaq(openFaq === faq.id ? null : faq.id)
+                    }
                     className="w-full px-6 py-4 flex justify-between items-center text-left"
                   >
                     <span className="font-medium">{faq.question}</span>
