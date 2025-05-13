@@ -20,7 +20,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://athleticmonster.com"),
+  metadataBase: new URL("https://chrisdillonfitness.com"),
   title: {
     default: "Chris Dillon Fitness | Glasgow Personal Trainer",
     template: "%s | Chris Dillon Fitness",
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://athleticmonster.com",
+    url: "https://chrisdillonfitness.com",
     siteName: "Chris Dillon Fitness",
     title: "Chris Dillon Fitness | Glasgow Personal Trainer",
     description:
       "Transform your body and mind with Glasgow's premier personal trainer. Customized workout plans, nutrition advice, and one-on-one coaching.",
     images: [
       {
-        url: "https://athleticmonster.com/og-image.jpg",
+        url: "https://chrisdillonfitness.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Chris Dillon Fitness - Personal Training in Glasgow",
@@ -63,10 +63,10 @@ export const metadata: Metadata = {
     description:
       "Transform your body and mind with Glasgow's premier personal trainer.",
     creator: "@chrisdillonfitness",
-    images: ["https://athleticmonster.com/twitter-image.jpg"],
+    images: ["https://chrisdillonfitness.com/twitter-image.jpg"],
   },
   alternates: {
-    canonical: "https://athleticmonster.com",
+    canonical: "https://chrisdillonfitness.com",
   },
   verification: {
     google: "your-google-verification-code",
@@ -88,13 +88,17 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://athleticmonster.com" />
+        <link rel="canonical" href="https://chrisdillonfitness.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="theme-color" content="#FF4400" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+        <link
+          rel="apple-touch-icon"
+          href="/apple-touch-icon.png"
+          sizes="180x180"
+        />
       </head>
       <body className={`${oswald.variable} ${inter.variable} font-sans`}>
         <a
