@@ -21,26 +21,21 @@ export default function AboutPage() {
         <div className="space-y-6 animate-fade-right">
           <h2 className="text-3xl font-bold">The Journey</h2>
           <p className="text-lg text-muted-foreground">
-            With over 12 years of experience in personal training and sports
-            science, I bring a wealth of knowledge to assist you on becoming
-            your best self.
+            With over 12 years of experience in personal training and sports, I
+            bring a wealth of knowledge to assist you on becoming your best
+            self.
           </p>
           <p className="text-muted-foreground">
-            My journey began as a competitive athlete, where I discovered my
-            passion for understanding human performance. After earning degrees
-            in Exercise Science and Sports Nutrition, I dedicated my career to
-            helping others achieve results they never thought possible.
+            My journey began with Olympic Weightlifting as a teenager, where I
+            discovered my passion for training. After retiring from the sport, I
+            fell in love with BodyBuilding and helping others achieve the best
+            version of themselves.
           </p>
-          {/* <h3 className="text-2xl font-bold mt-8">Qualifications</h3>
+          <h3 className="text-2xl font-bold mt-8">Qualifications</h3>
           <ul className="space-y-2 list-disc pl-5 text-muted-foreground">
-            <li>BSc in Exercise Science - University of Glasgow</li>
-            <li>MSc in Sports Nutrition - University of Edinburgh</li>
-            <li>Certified Strength and Conditioning Specialist (CSCS)</li>
-            <li>Level 3 Personal Trainer</li>
-            <li>Precision Nutrition Coach</li>
-            <li>Functional Movement Specialist</li>
-            <li>TRX Certified Trainer</li>
-          </ul> */}
+            <li>Level 2 Gym Instructing - CIMSPA</li>
+            <li>Level 3 Personal Training - CIMSPA</li>
+          </ul>
         </div>
 
         <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl animate-fade-left">
