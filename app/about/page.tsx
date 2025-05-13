@@ -22,8 +22,8 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold">The Journey</h2>
           <p className="text-lg text-muted-foreground">
             With over 12 years of experience in personal training and sports
-            science, I've helped hundreds of clients in Glasgow transform their
-            bodies and lives.
+            science, I bring a wealth of knowledge to assist you on becoming
+            your best self.
           </p>
           <p className="text-muted-foreground">
             My journey began as a competitive athlete, where I discovered my
@@ -68,7 +68,7 @@ export default function AboutPage() {
           </div>
 
           <div className="bg-card p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Personalized Plans</h3>
+            <h3 className="text-xl font-bold mb-4">Personalised Plans</h3>
             <p className="text-muted-foreground">
               No two bodies are the same. I create customized training and
               nutrition plans based on your unique goals, fitness level,
@@ -77,11 +77,11 @@ export default function AboutPage() {
           </div>
 
           <div className="bg-card p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold mb-4">Holistic Development</h3>
+            <h3 className="text-xl font-bold mb-4">Flexible Dieting</h3>
             <p className="text-muted-foreground">
-              True transformation goes beyond physical appearance. I focus on
-              improving functional strength, mobility, nutrition habits, and
-              mental resilience to create sustainable lifestyle changes.
+              While lifestyle modifications are required to achieve your goals,
+              it is not about excess suffering and there should be room for
+              enjoyment.
             </p>
           </div>
         </div>
